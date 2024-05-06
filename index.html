@@ -1,133 +1,124 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GDE - Trail Running</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="gde1.png" type="image/x-icon">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="script.js" defer></script>
-</head>
-
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title> GDE - Trail Running</title>  
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="gde1.png" type="image/x-icon">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="script.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    </head>
 <body>
- <div class="container">
-        <div class="main-container">
-            <h1>PROGRAMA DE ENTRENAMIENTO GDE -Trail Running</h1>
-            <h2>Alumno: Agustín Leiva</h2>
-        </div>
-            <h2>Objetivo mensual: Mejora de la cadencia en la subida </h2>
-            <h2>Fase: Adquisición </h2>
-            <h2 id ="pageTitle">Próxima carrera Valholl: 2024/05/10 </h2> 
-            <p id="result"></p> 
-            <!-- <p>Indicaciones previas:  </p> -->
-        
-        <div class="sub-container">
-            <h4>SEMANA 15</h4>
-            <p>Objetivo semanal: Énfasis en mantener ritmos.  </p>
-            <div>
-                <h2>Entrada en calor </h2>   <p>4 vueltas x 13 repeticiones </p>
-                <div class="image-container">  
-                    <video width="100%" class="responsive-video" style="margin-top: 35px;" controls>            
-                      <source src="Video1.mp4" type="video/mp4">
-                      </video>
-                  </div>
-                <div class="image-container">  
-                    <video width="100%"  class="responsive-video" style="margin-top: 35px;" controls>
-                      <source src="Video2.mp4" type="video/mp4">
-                      </video>
-                  </div>
-            </div>
-        </div>
-        <div><h2> Running </h2>
-        </div>
-        <div class="column-container 1">           
-            <div class="column">
-                <h3>Dia 1</h3>        
-                <p> Martes: 13 km Trail Mixto. </p>
-                    <p>  -2 km de menor a mayor. </p>
-                    <p>  -4 km, 1000 mts suave x 1000 mts ágiles. </p>
-                    <p>  -5 km subida al Gloria por calle, bajada por calle. </p>
-                    <p>  -2 km fuertes. </p>
-            </div>
-            <div class="column">
-                <h3>Dia 2</h3>
-                <p> Viernes: 15 km Trail Arco. </p>
-                    <p>  -3 km de menor a mayor. </p>
-                    <p>  -6 km 30" fuertes x 30" ágiles, dónde nos toque. </p>
-                    <p>  -6 km sosteniendo ritmos incómodos. </p>
-            </div>
-            <div class="column">
-                <h3>Dia 3</h3>        
-                <p> Sábado: 17 km Cerro Manos. </p>
-                    <p>  -3 km ágiles. </p>
-                    <p>  -3 km trekking exigido. </p>
-                    <p>  -5 km 30" fuertes x 30" caminata rápida. </p>
-                    <p>  -6 km 3'subiendo x 2'bajando . </p>
-            </div>
-        </div>
-
-        <div class="small-paragraph-container">
-            <p> Método de recuperación </p>
-            <p> - Automasaje de tensores de la fasia y rodilla, 3' por pierna, con botella.</p>     
-        </div>
-                    
-        <div id="column-container 1">
-        <canvas id="myChart-line-1"></canvas>
-        </div>
+<div class="container">
+    <div class="main-container">
+        <h1>PROGRAMA DE ENTRENAMIENTO GDE -Trail Running</h1>
+        <h1>Alumno: Agustín Leiva</h1>
+    </div>
+        <h2>OBJETIVO MENSUAL: Mejora de la cadencia en la subida </h2>
+        <h2>FASE: Respuesta </h2>
+        <h2 id ="pageTitle">PRÓXIMA CARRERA VALHOLL: 2024/05/10 </h2> 
+        <h2 id="result"></h2> 
+        <!-- <p>Indicaciones previas:  </p> -->
         
     <div class="sub-container">
-        <h4>SEMANA 16 </h4>
-        <p>Objetivo semanal: Trabajar sobre pequeños fragmentos de carrera. Semana pre-competencia. </p>
-        <div>
-        <h2>Entrada en calor </h2>   <p> 3 vueltas x 13 repeticiones </p>
-            <div class="image-container">  
-                <video width="100%" class="responsive-video" style="margin-top: 35px;" controls>            
-                <source src="Video3.mp4" type="video/mp4">
+         <h4>SEMANA 15   "COMPETENCIA"
+            <br>Objetivo semanal: Trabajar sobre pequeños fragmentos de carrera. </h4>
+        <p>Entrada en calor </p>   
+        <p>4 vueltas x 13 repeticiones </p>
+        <div class="image-container">  
+            <video width="100%" class="responsive-video" style="margin-top: 35px;" controls>            
+                <source src="Video1.mp4" type="video/mp4">
                 </video>
-            </div>
-            <div class="image-container">  
-                <video width="100%"  class="responsive-video" style="margin-top: 35px;" controls>
-                <source src="Video4.mp4" type="video/mp4">
+        </div>
+        <div class="image-container">  
+            <video width="100%"  class="responsive-video" style="margin-top: 35px;" controls>
+                <source src="Video2.mp4" type="video/mp4">
                 </video>
-            </div>
+        </div>
+    </div>
+    <div><h2> Running </h2>
+    </div>
+    <div class="column-container 1">           
+        <div class="column">
+            <h3>Dia 1</h3>        
+            <p> Martes: 8 km Parque de Montaña. </p>
+            <p>  -2 km fuertes. </p>
+            <p>  -3 km 20"fuertes x 20"ágiles senderos bajos. </p>
+            <p>  -3 km buenas sensaciones. </p>
+        </div>
+        <div class="column">
+            <h3>Dia 2</h3>
+            <p> Miércoles: 5 km calle. </p>
+            <p>  -5 km al mejor ritmo posible . </p>
+        </div>
+        <div class="column">
+            <h3>Dia 3</h3>        
+            <p> Viernes: 57 km CARRERA. </p>
+        </div>
+    </div>
+
+    <div class="small-paragraph-container">
+        <p> Método de recuperación </p>
+        <p> - Masaje con rolo al final de todos los entrenos, sobre el gluteo 2' (3 veces con cada lado).</p>     
+    </div>
+                    
+    <div id="column-container 1">
+        <canvas id="myChart-line-1"></canvas>
+    </div>
+        
+    <div class="sub-container">
+        <h4>SEMANA 16   "POST COMPETENCIA"
+        <br>Objetivo semanal: Trabajar sobre pequeños fragmentos de carrera.  </h4>
+        <p>Entrada en calor </p>  
+        <p> 3 vueltas x 13 repeticiones </p>
+        <div class="image-container">  
+            <video width="100%" class="responsive-video" style="margin-top: 35px;" controls>            
+            <source src="Video3.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="image-container">  
+            <video width="100%"  class="responsive-video" style="margin-top: 35px;" controls>
+            <source src="Video4.mp4" type="video/mp4">
+            </video>
         </div>
     </div>
 
     <div><h2> Running </h2>
     </div>
-
     <div class="column-container 1">           
         <div class="column">
             <h3>Dia 1</h3>
-            <p> Martes: 17 km Trail Mixto. </p>
-                <p>  -4 km calle, fuertes desde el arranque en subida. </p>
-                <p>  -3 km de menos a más. </p>
-                <p>  -5 km con la mayor cantidad de subidas rápidas y bajadas mucho más rápidas. </p>
-                <p>  -5 km calle, 2km ágiles x 3km fuertísimos. </p>
-           </div>
+            <p> Martes: 14 km Parque de Montaña. </p>
+            <p>  -3 km ágiles por senderos bajos. </p>
+            <p>  -6 km Llorón subida fuerte x Scooby filo sur, bajada x frente, volver al revés. </p>
+            <p>  -5 km de menor a mayor. </p>
+        </div>
         <div class="column">
             <h3>Dia 2</h3>        
-            <p> Jueves: 12 km pasadas en calle. </p>
-                <p>  -2 km de menor a mayor. </p>
-                <p>  -8km 
-                    <br>* (8x300m), 300mts  subida fuerte x 300mts bajada controlada calle del Cricyt;</br> 
-                    <br>*(6x300m), 300 mts bajada fuerte x 300 mts subida controlada calle del Cricyt.</br> </p>
-                <p>  -2km (2x1000m) subimos fuerte, descansamos 1', bajamos fuertísimo. </p>
+            <p> Jueves: 10 km series triangulares Parque de montaña. </p>
+            <p>  -2 km de menor a mayor. </p>
+            <p>  -2 km, 7 series x 200m subida fuerte, x 7 Colinas, arriba descaso 2' pasivos. </p>
+            <p>  -2 km, 7 series x 200m bajamos fuerte, abajo descansamos 2' pasivo. </p>
+            <p>  -4 km fuertes por senderos bajos.. </p>
         </div>
         <div class="column">
             <h3>Dia 3</h3>
-            <p> Sábado: 17 km Trail zona de Arco +900. </p>
-                <p>  -2 km fuertes. </p>
-                <p>  -3 km subimos fuerte 300mts x bajamos suave 50mts . </p>
-                <p>  -5 km trekking exigido. </p>
-                <p>  -7 km al mejor ritmo posible, donde quede. </p>
+            <p> Sábado: 11 km Trail Arco. 
+                <br> Con Mati Longo y Juan Manuel. 
+            </p>
+            <p>  -1 km ágil. </p>
+            <p>  -9 km a tope subir y bajar el Arco. </p>
         </div> 
     </div>
 
     <div class="small-paragraph-container">
         <p> Método de recuperación </p>
-        <p> - Masaje con rolo sobre el gluteo, al final de todos los entrenos (2' 3 veces con cada lado). </p>     
+        <p> - Masaje con rolo al final de todos los entrenos, sobre el gluteo 2' (3 veces con cada lado). </p>     
     </div>
           
     <div id="column-container 2">
@@ -135,7 +126,7 @@
     </div>      
 
     <div class="image-container">
-        <img class="imagen-chica" src="logo gde blanco horizontal.png" alt="Logo Gde horizontal">
+        <img class="imagen-chica" src="Montaña blanco.png" alt="Montaña Blanco">
       </div>      
 
 </div>
